@@ -47,6 +47,7 @@ p{
     background-color: #14b8a6;
     color: #ffffff;
 }
+
 .btn-primary:hover{
     background-color: #0d9488;
     transform: translateY(-2px);
@@ -111,6 +112,10 @@ border: 2px solid #1E293B ;
 }
 .nav-link:hover{
     color: #14b8a6;
+}
+.nav-link-whatsapp{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 /*BOTON DE HAMBURGUESA*/
 .menu-toggle{
