@@ -75,6 +75,7 @@ appointmentForm.addEventListener('submit', function(e) {
         petName: document.getElementById('petName').value,
         service: document.getElementById('service').value,
         date: document.getElementById('date').value,
+        message: document.getElementById('message').value
         // ✅ Eliminado: campo 'message' que no existe
     };
     if (validarFormulario(datos)) {
