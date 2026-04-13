@@ -76,7 +76,7 @@ ${datos.message ? `📝 *Notas:* ${datos.message}` : ''}
  * El usuario solo necesita hacer clic en "Enviar"
  */
 function abrirWhatsApp(mensaje) {
-    const urlWhatsApp = `https://wa.me/${WHATSAPP_NUMBER}?text=${mensaje}`;
+    const urlWhatsApp = `https://wa.me/${+573015351853}?text=${mensaje}`;
     window.open(urlWhatsApp, '_blank');
 }
 
