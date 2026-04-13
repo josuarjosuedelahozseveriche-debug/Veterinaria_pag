@@ -43,10 +43,12 @@ Me gustaría agendar una cita:
 🐾 *Nombre de la mascota:* ${datos.petName}
 🏥 *Servicio:* ${datos.service}
 📅 *Fecha preferida:* ${datos.date}
+${datos.message ? `📝 *Nota adicional:* ${datos.message}` : ''}
+
+¡Gracias!
     `.trim();
     return encodeURIComponent(mensaje);
 }
-
 function abrirWhatsApp(mensaje) {
     const urlWhatsApp = `https://wa.me/${WHATSAPP_NUMBER}?text=${mensaje}`;
     window.open(urlWhatsApp, '_blank');
