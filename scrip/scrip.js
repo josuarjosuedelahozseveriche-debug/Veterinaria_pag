@@ -43,7 +43,7 @@ Me gustaría agendar una cita:
 🐾 *Nombre de la mascota:* ${datos.petName}
 🏥 *Servicio:* ${datos.service}
 📅 *Fecha preferida:* ${datos.date}
-${datos.message ? `📝 *Nota adicional:* ${datos.message}` : ''}
+📝 *Nota adicional:* ${datos.message}
 
 ¡Gracias!
     `.trim();
